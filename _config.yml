@@ -1,0 +1,54 @@
+# Basic
+title: fairycn
+subtitle: Blog
+description: Welcome to my blog
+# 头像里面的标题
+avatarTitle: fairycn
+# 头像里面的描述
+avatarDesc: 阴阳相济，阴阳相安。
+url: "https://fairycn.github.io/"
+
+# 博客是否自动生成目录，false为不生成
+enableToc: true
+
+
+# Social
+social:
+    github: fairycn
+    twitter: fairycn0x01
+    mail: fairycn@tutanota.com
+
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: c8578b244e18b48db90ed777add26115
+
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: 
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 文章分类, description: Article Categories, url: '/Article Categories'}        
+    - {title: 关于我, description: about, url: '/about'}   
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
