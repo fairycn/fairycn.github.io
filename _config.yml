@@ -36,19 +36,22 @@ textColor: #FF0000
 cover_color: 
 
 # The blog button should not be removed.
-blog_button:
-    title: 博客主页
+#blog_button:
+    #title: 博客主页
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 文章分类, description: Article Categories, url: '/Article Categories'}        
-    - {title: 关于我, description: about, url: '/about'}   
+    - {title: Home, description: Home, url: '/index'}  
+    - {title: All articles, description: All articles, url: '/All articles'}   
+    - {title: Tages, description: Tages, url: '/Tages'}
+    - {title: Article Categories, description: Categories, url: '/categories'}          
+    - {title: About me, description: About me, url: '/about'}   
+
     
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
+paginate: 10
 paginate_path: "page/:num/"
 
 
